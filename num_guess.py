@@ -1,6 +1,7 @@
 # Author: Kenneth Hileman
 # GitHub username: PHTIWringer
 # Date: 04/09/2024
+# NOTE: No ReadMe Using other IDE
 # Description: Asks the user to enter an integer that a player will guess. Display whether the guess is too high or too low or displays that the player got it right in x amount of times.
 
 num = int(input("Enter the integer for the player to guess."))
