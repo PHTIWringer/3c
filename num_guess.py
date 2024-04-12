@@ -4,14 +4,13 @@
 # NOTE: No ReadMe Using other IDE
 # Description: Asks the user to enter an integer that a player will guess. Display whether the guess is too high or too low or displays that the player got it right in x amount of times.
 
-num = int(input("Enter the integer for the player to guess."))
+num = int(input("Enter the integer for the player to guess.\n"))
 
-guess = int(input("Enter your guess."))
+guess = int(input("Enter your guess.\n"))
 
 num_guesses = 1
 
 while True:
-
     if guess == num:
         print("You guessed it in", num_guesses, "tries.")  
         break
