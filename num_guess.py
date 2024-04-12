@@ -12,7 +12,10 @@ num_guesses = 1
 
 while True:
     if guess == num:
-        print("You guessed it in", num_guesses, "tries.")  
+        if num_guesses == 1:
+            print("You guessed it in", num_guesses, "try.")  
+        else:
+            print("You guessed it in", num_guesses, "tries.")  
         break
     elif guess > num:
         print("Too high - try again:")
