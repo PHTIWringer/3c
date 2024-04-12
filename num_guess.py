@@ -5,10 +5,8 @@
 # Description: Asks the user to enter an integer that a player will guess. Display whether the guess is too high or too low or displays that the player got it right in x amount of times.
 
 num = int(input("Enter the integer for the player to guess."))
-print(num)
 
 guess = int(input("Enter your guess."))
-print(guess)
 
 num_guesses = 1
 
